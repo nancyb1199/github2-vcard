@@ -1,0 +1,45 @@
+
+body{
+  background-color: pink;
+  padding-top: 10px;
+}
+
+h1 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-top: 7px dotted #878787;
+  text-align: center;
+  font-size: 32px;
+  border-bottom: 7px dotted #878787;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  padding: 60px;
+  margin: 50px;
+}
+
+p {
+  padding-left: 25px;
+  border-left: 2px solid;
+  border-color: #878787;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+img {
+ width: 150px;
+ height: 150px;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ float: right;
+ }
